@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>Surekha Chamarthi</h2>
+<div>
+</div>
+</div>
+
+<div class="row">
+  <div class="leftcolumn"><img src="5.jpeg">
+    <div class="card">
+
+      <h2>Summer Vacation</h2>
+      <h5>Trip to Manali, May 7, 2021</h5>
+      <div  style="height:250px;"><img src="6.jpeg" height="250" width="250"></div>
+      <p></p>
+    
+    </div>
+    <div class="card">
+      <h2></h2>Trip to Rajasthan, June 2, 2021</br></br></h5>
+      <div  style="height:200px;"><img src="7.jpeg" height="250" width="250"></div>
+      <p>Some text..</p>
+     
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div style="height:100px;"><img src="4.jpeg" height="220" width="180"></div>
+      <p></br></br></br></br></br></br>I am Surekha Chamarthi and it is with a sincere sense of gratitude towards the opportunity given to me.
+
+I have completed my Bachelors of technology in the stream of Electronics and communication Engineering in 2018. 
+My passion for computers started from the early days of my middle school education. I have always been fascinated by computers, especially those that benefit common people in their days to day lives. </p>
+<p><a href="C:\Users\Priyanka\Downloads\sur.docx">Annoted bibilography</a></p>    
+</div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div ><img src="1.jpeg" height="150" width="150"></div><br>
+      <div ><img src="2.jpeg" height="150" width="150"></div><br>
+      <div ><img src="3.jpeg" height="150" width="150"></div>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p><a href="https://www.facebook.com/">Facebook</p>
+      <p><a href="https://twitter.com/">Twitter</p>
+      <p><a href="https://www.instagram.com/">Instagram</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+
+</body>
+</html>
